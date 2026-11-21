@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Loud & Wild 2027 — script commun aux 4 pages
+   Maubeuge Cover Rock Festival 2027 — script commun aux 4 pages
    1. Préférences d'accessibilité (contraste, taille, animations)
    2. Navigation : page courante
    3. Programmation : filtres par créneau + fiches techniques
@@ -126,8 +126,8 @@
      Les champs sont utilisés tels quels (pas de remplacement/injection DOM).
      ------------------------------------------------------------------ */
   var tarifs = [
-    { id: "reduit", nom: "Tarif Réduit", prix: 10 },
-    { id: "standard", nom: "Pass Soirée Standard", prix: 15 },
+    { id: "reduit", nom: "Prévente", prix: 10 },
+    { id: "standard", nom: "Entrée sur place", prix: 15 },
     { id: "jetons", nom: "Pass + Pack Jetons", prix: 22 }
   ];
   var formulaireReservation = document.getElementById("resa-form");
